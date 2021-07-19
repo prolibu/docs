@@ -62,11 +62,11 @@ Los webhooks le permiten crear o configurar integraciones, que se suscriben a ci
 
 
 ## Información adicional: 
-* Para conocer más acerca de Prolibu Webhook visite el siguiente [link](https://nodriza-io.github.io/nodriza/#/reference-webhook).
+* Para conocer más acerca de Prolibu Webhook visite el siguiente [link](https://prolibu-docs.github.io/docs/#/reference-webhook).
 
 ## Artículos Relacionados
-* Para conectarse con a un web service Prolibu visite el siguiente [link](https://nodriza-io.github.io/nodriza/#/guide).
-* Para generar un Api Key Prolibu visite el siguiente [link](https://github.com/nodriza-io/nodriza/blob/master/docs/api-key.md).
+* Para conectarse con a un web service Prolibu visite el siguiente [link](https://prolibu-docs.github.io/docs/#/guide).
+* Para generar un Api Key Prolibu visite el siguiente [link](https://github.com/prolibu-docs/docs/blob/main/api-key.md).
 
 
 ---------------
