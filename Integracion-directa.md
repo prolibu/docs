@@ -4,7 +4,7 @@
 
 Las integraciones son herramientas y servicios que se conectan con Prolibu® para complementar y extender tu flujo de trabajo.
 
-## Ayude a sus equipos a crear impactantes propuestas comerciales
+## Ayude a sus equipos a crear impactantes propuestas comerciales sin salir de su CRM o ERP
 
 Prolibu® es un motor de propuestas inteligente (SPE), que le permite crear impactantes propuestas comerciales en tiempo récord, con la capacidad de predicción del verdadero interés de compra del cliente.
 
