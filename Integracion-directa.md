@@ -170,13 +170,36 @@ Las ApiKey son una forma de autenticación para que otras aplicaciones accedan m
 
 ### Consumo ApiRest personalizados
 
-Una vez implementado el CustomObject de Prolibu® dentro de su cuenta se entregara una URL con toda la documentación con el detalle de los endpoints, metodos, parametros y respuestas del CustomObject. En esa URL usted verá algo muy parecido a esto:
+Una vez implementado el CustomObject de Prolibu® dentro de su cuenta se entregara una URL con la documentación. En esa URL usted verá algo muy parecido a la imagen mostrada debajo, aquí se detallara la forma de conexión, endpoints, paramentos y respuestas del nuevo objeto.
 
 ![Image Postman!](https://s3.amazonaws.com/files.nodriza.io/sales/Wilmar%20Ibarguen/Captura%20de%20pantalla%202021-11-10%20a%20la-s-%2010-57-20%20p-%20m-.png?=1636603319879)
 
-### Suscribirse a Prolibu® Webhooks
+### Suscribirse a eventos mediante Prolibu® Webhooks
 
-To create a horizontal rule, use three or more asterisks (***), dashes (---), or underscores (___) on a line by themselves.
+Los webhooks le permiten crear o configurar integraciones, que se suscriben a ciertos eventos en Prolibu®. Cuando se activa uno de esos eventos, enviaremos una solicitud HTTP POST a la URL configurada en el webhook.
+
+Para suscribirse a cualquier evento dentro de  Prolibu® necesita configurar en el modulo de Webhooks los siguientes datos:
+
+#### Payload url
+Es la URL del servidor que recibirá las solicitudes POST del webhook.
+
+#### Authorization
+Establecer una autorización de webhook le permite asegurarse de que las solicitudes POST enviadas a la URL sean de Prolibu®. Cuando establezca una autorización, recibirá el encabezado AUTORIZACIÓN en la solicitud POST del webhook.
+
+#### Content type
+Los webhooks se pueden entregar utilizando diferentes tipos de contenido:
+
+- El tipo de contenido application/json entregará la carga útil JSON directamente como el cuerpo de la solicitud POST. 
+- El tipo de contenido application/x-www-form-urlencoded enviará la carga útil JSON como un parámetro de formulario llamado carga útil.
+
+#### Active
+De forma predeterminada, las entregas de webhook están "activas". Puede optar por deshabilitar la entrega de cargas útiles de webhook deseleccionando "Activo".
+
+#### Events
+
+Los eventos son el núcleo de los webhooks. Estos webhooks se activan cada vez que se realiza una determinada acción en la plataforma nodriza, que la URL de carga útil de su servidor intercepta y sobre la que actúa.
+
+[Vea aquí todos los eventos disponibles](https://prolibu-docs.github.io/docs/#/reference-webhook)
 
 ---------------
 © 2021 PROLIBU TECH SAS, ALL RIGHTS RESERVED.
