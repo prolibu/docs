@@ -1,4 +1,4 @@
-# Prolibu® + CRM/ERP
+# Prolibu® + Tu CRM o ERP
 
 ## Acerca de las integraciones
 
@@ -41,10 +41,19 @@ La integración de Prolibu® para su CRM o ERP está construida y mantenida por 
 
 ### Requisitos
 
-To create a horizontal rule, use three or more asterisks (***), dashes (---), or underscores (___) on a line by themselves.
+- Contar con una cuenta en Prolibu® activa
+- Obtener un token de autorización de acceso a los datos de la cuenta
+- Poder realizar solicitudes de tipo REST
+- Contar dentro de su CRM o ERP con la información de:
+  - Lead/Cliente
+  - Agente comercial
+  - Lista(s) de precio(s)
 
-### Instalación
-To create a horizontal rule, use three or more asterisks (***), dashes (---), or underscores (___) on a line by themselves.
+### Implementación
+
+Los CustomObjects en Prolibu® son objetos que parten desde cero y permiten cubrir las necesidades particulares de su negocio, expuestos bajo el estandar API RESTful y soportando formatos como XML o JSON.
+
+Estos CustomObjects son implementados dentro de su cuenta Prolibu® por uno de nuestros expertos de TI mediante un contrato de datos en el cual se acuerdan que campos y comportamientos debe tener este nuevo objeto dentro de la plataforma.
 
 ## Como Empezar
 
@@ -65,4 +74,4 @@ To create a horizontal rule, use three or more asterisks (***), dashes (---), or
 To create a horizontal rule, use three or more asterisks (***), dashes (---), or underscores (___) on a line by themselves.
 
 ---------------
-© 2020 PROLIBU TECH SAS, ALL RIGHTS RESERVED.
+© 2021 PROLIBU TECH SAS, ALL RIGHTS RESERVED.
