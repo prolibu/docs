@@ -32,7 +32,7 @@ La integración de Prolibu® para su CRM o ERP está construida y mantenida por 
 - [Como Empezar](#Como-Empezar)
   - [Definición del contrato de datos](#Definición-del-contrato-de-datos)
   - [Información basica](#Información-basica)
-  - [Autorización](#Autorización)
+  - [Obtener un ApiKey de conexión](#Obtener-un-ApiKey-de-conexión)
   - [Consumo ApiRest personalizados](#Consumo-ApiRest-personalizados)
   - [Suscribirse a eventos mediante Prolibu® Webhooks](#Suscribirse-a-eventos-mediante-Prolibu®-Webhooks)
 
@@ -162,13 +162,17 @@ Sirve para suministrar información adicional propia del negocio que no cuenta c
 
 o cualquier otro dato que quiera presentar o almacenar dentro de la propuesta comercial en Prolibu®.
 
-### Construcción ApiRest personalizados
+### Obtener un ApiKey de conexión
 
-To create a horizontal rule, use three or more asterisks (***), dashes (---), or underscores (___) on a line by themselves.
+Las ApiKey son una forma de autenticación para que otras aplicaciones accedan mediante programación a los datos dentro de su cuenta Prolibu® de una manera simple y segura.
 
-### Autorización
+[Vea aquí el instructivo para generar un ApiKey dentro de su cuenta Prolibu®](https://github.com/prolibu-docs/docs/blob/main/api-key.md)
 
-To create a horizontal rule, use three or more asterisks (***), dashes (---), or underscores (___) on a line by themselves.
+### Consumo ApiRest personalizados
+
+Una vez implementado el CustomObject de Prolibu® dentro de su cuenta se entregara una URL con toda la documentación con el detalle de los endpoints, metodos, parametros y respuestas del CustomObject. En esa URL usted verá algo muy parecido a esto:
+
+![Image Postman!](https%3A%2F%2Fs3.amazonaws.com%2Ffiles.nodriza.io%2Fsales%2FWilmar%20Ibarguen%2FCaptura%20de%20pantalla%202021-11-10%20a%20la-s-%2010-57-20%20p-%20m-.png)
 
 ### Suscribirse a Prolibu® Webhooks
 
