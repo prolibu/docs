@@ -26,14 +26,15 @@ La integración de Prolibu® para su CRM o ERP está construida y mantenida por 
 
 ## Tabla de Contenido
 
-- [Implementación de la integración de Prolibu® para su CRM o ERP](https://duckduckgo.com) 
-  - [Requisitos](https://duckduckgo.com)
-  - [Instalación](https://duckduckgo.com)
-- [Como Empezar](https://duckduckgo.com)
-  - [Definición del contrato de datos](https://duckduckgo.com)
-  - [Autorización](https://duckduckgo.com)
-  - [Consumo ApiRest personalizados](https://duckduckgo.com)
-  - [Suscribirse a eventos mediante Prolibu® Webhooks](https://duckduckgo.com)
+- [Implementación de la integración de Prolibu® para su CRM o ERP](#Implementación-de-la-integración-de-Prolibu®-para-su-CRM-o-ERP) 
+  - [Requisitos](#Requisitos)
+  - [Instalación](#Instalación)
+- [Como Empezar](#Como-Empezar)
+  - [Definición del contrato de datos](#Definición-del-contrato-de-datos)
+  - [Información basica](#Información-basica)
+  - [Autorización](#Autorización)
+  - [Consumo ApiRest personalizados](#Consumo-ApiRest-personalizados)
+  - [Suscribirse a eventos mediante Prolibu® Webhooks](Suscribirse-a-eventos-mediante-Prolibu®-Webhooks)
 
 ---------------
 
@@ -41,23 +42,27 @@ La integración de Prolibu® para su CRM o ERP está construida y mantenida por 
 
 ### Requisitos
 
-- Contar con una cuenta en Prolibu® activa
+- Contar con una cuenta activa en Prolibu®
 - Obtener un token de autorización de acceso a los datos de la cuenta
 - Poder realizar solicitudes de tipo REST
 - Contar dentro de su CRM o ERP con la información de:
-  - Lead/Cliente
-  - Agente comercial
+  - Leads/Clientes
+  - Agentes comerciales
   - Lista(s) de precio(s)
 
 ### Implementación
 
-Los CustomObjects en Prolibu® son objetos que parten desde cero y permiten cubrir las necesidades particulares de su negocio, expuestos bajo el estandar API RESTful y soportando formatos como XML o JSON.
+Los CustomObjects en Prolibu® son objetos que parten desde cero y permiten cubrir las necesidades particulares de su negocio, expuestos bajo el estandar RESTful y soportando formatos como XML o JSON.
 
 Estos CustomObjects son implementados dentro de su cuenta Prolibu® por uno de nuestros expertos de TI mediante un contrato de datos en el cual se acuerdan que campos y comportamientos debe tener este nuevo objeto dentro de la plataforma.
 
 ## Como Empezar
 
 ### Definición del contrato de datos
+
+To create a horizontal rule, use three or more asterisks (***), dashes (---), or underscores (___) on a line by themselves.
+
+### Información basica
 
 To create a horizontal rule, use three or more asterisks (***), dashes (---), or underscores (___) on a line by themselves.
 
