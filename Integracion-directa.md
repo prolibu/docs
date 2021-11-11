@@ -35,7 +35,7 @@ La integración de Prolibu® para su CRM o ERP está construida y mantenida por 
   - [Consumo ApiRest personalizados](https://duckduckgo.com)
   - [Suscribirse a eventos mediante Prolibu® Webhooks](https://duckduckgo.com)
 
-***
+---------------
 
 ## Implementación de la integración de Prolibu® para su CRM o ERP
 
@@ -64,3 +64,5 @@ To create a horizontal rule, use three or more asterisks (***), dashes (---), or
 
 To create a horizontal rule, use three or more asterisks (***), dashes (---), or underscores (___) on a line by themselves.
 
+---------------
+© 2020 PROLIBU TECH SAS, ALL RIGHTS RESERVED.
