@@ -34,7 +34,7 @@ La integración de Prolibu® para su CRM o ERP está construida y mantenida por 
   - [Información basica](#Información-basica)
   - [Autorización](#Autorización)
   - [Consumo ApiRest personalizados](#Consumo-ApiRest-personalizados)
-  - [Suscribirse a eventos mediante Prolibu® Webhooks](Suscribirse-a-eventos-mediante-Prolibu®-Webhooks)
+  - [Suscribirse a eventos mediante Prolibu® Webhooks](#Suscribirse-a-eventos-mediante-Prolibu®-Webhooks)
 
 ---------------
 
@@ -54,17 +54,113 @@ La integración de Prolibu® para su CRM o ERP está construida y mantenida por 
 
 Los CustomObjects en Prolibu® son objetos que parten desde cero y permiten cubrir las necesidades particulares de su negocio, expuestos bajo el estandar RESTful y soportando formatos como XML o JSON.
 
-Estos CustomObjects son implementados dentro de su cuenta Prolibu® por uno de nuestros expertos de TI mediante un contrato de datos en el cual se acuerdan que campos y comportamientos debe tener este nuevo objeto dentro de la plataforma.
-
 ## Como Empezar
 
 ### Definición del contrato de datos
 
-To create a horizontal rule, use three or more asterisks (***), dashes (---), or underscores (___) on a line by themselves.
+Estos CustomObjects son implementados dentro de su cuenta Prolibu® por uno de nuestros expertos de TI mediante un contrato de datos en el cual se acuerdan que campos y comportamientos debe tener este nuevo objeto dentro de la plataforma. A continuación veremos un ejemplo de los campos en un contrato de datos.
+
+```json
+{
+    "uuid": "090392-T90",
+    "lead": {
+        "firtsName": "Jane",
+        "lastName": "Doe",  
+        "email": "janed@prolibu.com",
+        "mobile": "+57 3128932934",
+        "metadata": {
+            "source": "Facebook"
+        }
+    },
+    "agent": {
+        "firtsName": "John",
+        "lastName": "Doe",  
+        "email": "jdoe@prolibu.com",
+        "mobile": "+57 3128932934"
+    },
+    "data": {
+        "title": "Get now!",
+        "expirationDate": "2021-03-30",
+        "metadata": {
+            "commercialTerms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas eu risus nec tristique.",
+            "relatedInformationTable": "<table><thead><tr><th>one</th></tr></thead><tbody><tr><td>description</td></tr></tbody></table>",
+            "financinglPlan": {
+                "start": 2000,
+                "monthlyPayment": 200,
+                "interestRate": 1.5
+            }
+        },
+        "products": [
+            {
+                "sku": "992DNUW92UE",
+                "quantity": 1,
+                "discountRate": 10,
+                "currency": "USD",
+                "metadata": {
+                    "images": [
+                        "https://s3.amazonaws.com/cdn.prolibu.com/rest-api-doc-images/Profile-menu.png",
+                        "https://s3.amazonaws.com/cdn.prolibu.com/rest-api-doc-images/Profile-menu.png"
+                    ]
+                }    
+            }
+        ] 
+    }
+}
+```
 
 ### Información basica
 
-To create a horizontal rule, use three or more asterisks (***), dashes (---), or underscores (___) on a line by themselves.
+Para la creación de una propuesta comercial en Prolibu® se hace requerida la siguiente información:
+
+#### UUID 
+llave foranea entre su CRM o ERP y Prolibu® 
+
+#### Agent
+Información sobre el agente comercial que atiende la porpuesta comercial. Campos Requeridos:
+
+- firtsName
+- lastName
+- email
+
+[Ver todos campos disponibles](https://prolibu-docs.github.io/docs/#/reference-user)
+
+#### Lead
+Información sobre el lead/cliente a quien va dirigida la porpuesta comercial. Campos Requeridos:
+
+- firtsName
+- lastName
+- email
+
+[Ver todos campos disponibles](https://prolibu-docs.github.io/docs/#/reference-lead)
+
+#### Data
+Información que ira contenida en la porpuesta comercial. Campos Requeridos:
+
+- title
+- products
+
+[Ver todos campos disponibles](https://prolibu-docs.github.io/docs/#/reference-proposal)
+
+#### Products
+Información sobre productos contenidos en la porpuesta comercial. Campos Requeridos:
+
+- sku
+- name
+- price
+
+[Ver todos campos disponibles](https://prolibu-docs.github.io/docs/#/reference-product)
+
+#### Metadata
+Sirve para suministrar información adicional propia del negocio que no cuenta con un campo estandar en Prolibu®. Por ejemplo:
+
+- Información de Financiación
+- Condiciones comerciales
+- Imagenes
+- Render 360
+- Videos
+- etc
+
+o cualquier otro dato que quiera presentar o almacenar dentro de la propuesta comercial en Prolibu®.
 
 ### Construcción ApiRest personalizados
 
