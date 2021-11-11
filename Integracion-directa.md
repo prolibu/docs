@@ -26,15 +26,15 @@ La integración de Prolibu® para su CRM o ERP está construida y mantenida por 
 
 ## Tabla de Contenido
 
-- [Implementación de la integración de Prolibu® para su CRM o ERP](#Implementación-de-la-integración-de-Prolibu®-para-su-CRM-o-ERP) 
-  - [Requisitos](#Requisitos)
-  - [Instalación](#Instalación)
-- [Como Empezar](#Como-Empezar)
-  - [Definición del contrato de datos](#Definición-del-contrato-de-datos)
-  - [Información basica](#Información-basica)
-  - [Obtener un ApiKey de conexión](#Obtener-un-ApiKey-de-conexión)
-  - [Consumo ApiRest personalizados](#Consumo-ApiRest-personalizados)
-  - [Suscribirse a eventos mediante Prolibu® Webhooks](#Suscribirse-a-eventos-mediante-Prolibu®-Webhooks)
+- [Implementación de la integración de Prolibu® para su CRM o ERP](#implementación-de-la-integración-de-prolibu-para-su-crm-o-erp) 
+  - [Requisitos](#requisitos)
+  - [Implementación](#implementación)
+- [Como Empezar](#como-empezar)
+  - [Definición del contrato de datos](#definición-del-contrato-de-datos)
+  - [Información basica](#información-basica)
+  - [Obtener un ApiKey de conexión](#obtener-un-apikey-de-conexión)
+  - [Consumo ApiRest personalizados](#consumo-apirest-personalizados)
+  - [Suscribirse a eventos mediante Prolibu® Webhooks](#suscribirse-a-eventos-mediante-prolibu-webhooks)
 
 ---------------
 
