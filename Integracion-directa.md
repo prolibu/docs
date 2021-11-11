@@ -29,6 +29,7 @@ La integración de Prolibu® para su CRM o ERP está construida y mantenida por 
 - [Implementación de la integración de Prolibu® para su CRM o ERP](#implementación-de-la-integración-de-prolibu-para-su-crm-o-erp) 
   - [Requisitos](#requisitos)
   - [Implementación](#implementación)
+  - [Flujo Integración](#flujo-integración)
 - [Como Empezar](#como-empezar)
   - [Definición del contrato de datos](#definición-del-contrato-de-datos)
   - [Información básica](#información-básica)
@@ -53,6 +54,10 @@ La integración de Prolibu® para su CRM o ERP está construida y mantenida por 
 ### Implementación
 
 Los CustomObjects en Prolibu® son objetos que parten desde cero y permiten cubrir las necesidades particulares de su negocio, expuestos bajo el estándar RESTful y soportando formatos como XML o JSON.
+
+### Flujo Integración
+
+![Flujo Integración!](https://s3.amazonaws.com/files.nodriza.io/sales/Wilmar%20Ibarguen/Integracion%20Directa.jpeg)
 
 ## Como Empezar
 
