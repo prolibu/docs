@@ -172,7 +172,7 @@ Las ApiKey son una forma de autenticación para que otras aplicaciones accedan m
 
 Una vez implementado el CustomObject de Prolibu® dentro de su cuenta se entregara una URL con toda la documentación con el detalle de los endpoints, metodos, parametros y respuestas del CustomObject. En esa URL usted verá algo muy parecido a esto:
 
-![Image Postman!](https%3A%2F%2Fs3.amazonaws.com%2Ffiles.nodriza.io%2Fsales%2FWilmar%20Ibarguen%2FCaptura%20de%20pantalla%202021-11-10%20a%20la-s-%2010-57-20%20p-%20m-.png)
+![Image Postman!](https://s3.amazonaws.com/files.nodriza.io/sales/Wilmar%20Ibarguen/Captura%20de%20pantalla%202021-11-10%20a%20la-s-%2010-57-20%20p-%20m-.png?=1636603319879)
 
 ### Suscribirse a Prolibu® Webhooks
 
