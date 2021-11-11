@@ -170,7 +170,7 @@ Las ApiKey son una forma de autenticación para que otras aplicaciones accedan m
 
 ### Consumo ApiRest personalizados
 
-Una vez implementado el CustomObject de Prolibu® dentro de su cuenta se entregara una URL con la documentación. En esa URL usted verá algo muy parecido a la imagen mostrada debajo, aquí se detallara la forma de conexión, endpoints, paramentos y respuestas del nuevo objeto.
+Una vez implementado el CustomObject de Prolibu® dentro de su cuenta se entregara una URL con la documentación. En esa URL usted verá algo muy parecido a la imagen mostrada debajo, aquí se detallara la forma de conexión, autenticación, endpoints, paramentos y respuestas del nuevo objeto.
 
 ![Image Postman!](https://s3.amazonaws.com/files.nodriza.io/sales/Wilmar%20Ibarguen/Captura%20de%20pantalla%202021-11-10%20a%20la-s-%2010-57-20%20p-%20m-.png?=1636603319879)
 
