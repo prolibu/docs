@@ -10,17 +10,17 @@ Prolibu® es un motor de propuestas inteligente (SPE), que le permite crear impa
 
 Los agentes comerciales pasan una cantidad considerable de tiempo formulando propuestas atractivas de cara al cliente, monitoreando leads calificados de forma subjetiva, etc. Esto requiere un tiempo considerable. La integración de Prolibu® con su CRM o ERP le brinda a usted la posibilidad de: 
 
-- Crear al instante impactantes propuestas comerciales, siguiendo un estricto lineamiento de marca.
+- Crear al instante impactantes propuestas comerciales, siguiendo un estricto lineamiento de marca
 
 - Disponer de robots cotizadores que trabajan 24x7 formulando propuestas comerciales desde su sitio web
 
-- Conozcer el preciso instante en el que su cliente estudia la propuesta comercial y abordelo vía chat
+- Conocer el preciso instante en el que su cliente estudia la propuesta comercial y abórdelo vía chat
 
 - Predecir el verdadero interés de compra del cliente frente a la propuesta comercial
 
 - Organizar sus propuestas de acuerdo al interés de compra del cliente y priorice las que tienen alta probabilidad de cierre
 
-entre muchos otros beneficios.
+Entre muchos otros beneficios.
 
 La integración de Prolibu® para su CRM o ERP está construida y mantenida por Prolibu®. 
 
@@ -31,7 +31,7 @@ La integración de Prolibu® para su CRM o ERP está construida y mantenida por 
   - [Implementación](#implementación)
 - [Como Empezar](#como-empezar)
   - [Definición del contrato de datos](#definición-del-contrato-de-datos)
-  - [Información basica](#información-basica)
+  - [Información básica](#información-básica)
   - [Obtener un ApiKey de conexión](#obtener-un-apikey-de-conexión)
   - [Consumo ApiRest personalizados](#consumo-apirest-personalizados)
   - [Suscribirse a eventos mediante Prolibu® Webhooks](#suscribirse-a-eventos-mediante-prolibu-webhooks)
@@ -52,7 +52,7 @@ La integración de Prolibu® para su CRM o ERP está construida y mantenida por 
 
 ### Implementación
 
-Los CustomObjects en Prolibu® son objetos que parten desde cero y permiten cubrir las necesidades particulares de su negocio, expuestos bajo el estandar RESTful y soportando formatos como XML o JSON.
+Los CustomObjects en Prolibu® son objetos que parten desde cero y permiten cubrir las necesidades particulares de su negocio, expuestos bajo el estándar RESTful y soportando formatos como XML o JSON.
 
 ## Como Empezar
 
@@ -108,7 +108,7 @@ Estos CustomObjects son implementados dentro de su cuenta Prolibu® por uno de n
 }
 ```
 
-### Información basica
+### Información básica
 
 Para la creación de una propuesta comercial en Prolibu® se hace requerida la siguiente información:
 
@@ -116,7 +116,7 @@ Para la creación de una propuesta comercial en Prolibu® se hace requerida la s
 llave foranea entre su CRM o ERP y Prolibu® 
 
 #### Agent
-Información sobre el agente comercial que atiende la porpuesta comercial. Campos Requeridos:
+Información sobre el agente comercial que atiende la propuesta comercial. Campos Requeridos:
 
 - firtsName
 - lastName
@@ -125,7 +125,7 @@ Información sobre el agente comercial que atiende la porpuesta comercial. Campo
 [Ver todos campos disponibles](https://prolibu-docs.github.io/docs/#/reference-user)
 
 #### Lead
-Información sobre el lead/cliente a quien va dirigida la porpuesta comercial. Campos Requeridos:
+Información sobre el lead/cliente a quien va dirigida la propuesta comercial. Campos Requeridos:
 
 - firtsName
 - lastName
@@ -134,7 +134,7 @@ Información sobre el lead/cliente a quien va dirigida la porpuesta comercial. C
 [Ver todos campos disponibles](https://prolibu-docs.github.io/docs/#/reference-lead)
 
 #### Data
-Información que ira contenida en la porpuesta comercial. Campos Requeridos:
+Información que ira contenida en la propuesta comercial. Campos Requeridos:
 
 - title
 - products
@@ -142,7 +142,7 @@ Información que ira contenida en la porpuesta comercial. Campos Requeridos:
 [Ver todos campos disponibles](https://prolibu-docs.github.io/docs/#/reference-proposal)
 
 #### Products
-Información sobre productos contenidos en la porpuesta comercial. Campos Requeridos:
+Información sobre productos contenidos en la propuesta comercial. Campos Requeridos:
 
 - sku
 - name
@@ -151,16 +151,16 @@ Información sobre productos contenidos en la porpuesta comercial. Campos Requer
 [Ver todos campos disponibles](https://prolibu-docs.github.io/docs/#/reference-product)
 
 #### Metadata
-Sirve para suministrar información adicional propia del negocio que no cuenta con un campo estandar en Prolibu®. Por ejemplo:
+Sirve para suministrar información adicional propia del negocio que no cuenta con un campo estándar en Prolibu®. Por ejemplo:
 
 - Información de Financiación
 - Condiciones comerciales
-- Imagenes
-- Render 360
+- Imágenes
+- Rénder 360
 - Videos
-- etc
+- etc.
 
-o cualquier otro dato que quiera presentar o almacenar dentro de la propuesta comercial en Prolibu®.
+O cualquier otro dato que quiera presentar o almacenar dentro de la propuesta comercial en Prolibu®.
 
 ### Obtener un ApiKey de conexión
 
@@ -170,7 +170,7 @@ Las ApiKey son una forma de autenticación para que otras aplicaciones accedan m
 
 ### Consumo ApiRest personalizados
 
-Una vez implementado el CustomObject de Prolibu® dentro de su cuenta se entregara una URL con la documentación. En esa URL usted verá algo muy parecido a la imagen mostrada debajo, aquí se detallara la forma de conexión, autenticación, endpoints, paramentos y respuestas del nuevo objeto.
+Una vez implementado el CustomObject de Prolibu® dentro de su cuenta se entregará una URL con la documentación. En esa URL usted verá algo muy parecido a la imagen mostrada debajo, aquí se detallará la forma de conexión, autenticación, endpoints, paramentos y respuestas del nuevo objeto.
 
 ![Image Postman!](https://s3.amazonaws.com/files.nodriza.io/sales/Wilmar%20Ibarguen/Captura%20de%20pantalla%202021-11-10%20a%20la-s-%2010-57-20%20p-%20m-.png?=1636603319879)
 
@@ -178,7 +178,7 @@ Una vez implementado el CustomObject de Prolibu® dentro de su cuenta se entrega
 
 Los webhooks le permiten crear o configurar integraciones, que se suscriben a ciertos eventos en Prolibu®. Cuando se activa uno de esos eventos, enviaremos una solicitud HTTP POST a la URL configurada en el webhook.
 
-Para suscribirse a cualquier evento dentro de  Prolibu® necesita configurar en el modulo de Webhooks los siguientes datos:
+Para suscribirse a cualquier evento dentro de  Prolibu® necesita configurar en el módulo de Webhooks los siguientes datos:
 
 #### Payload url
 Es la URL del servidor que recibirá las solicitudes POST del webhook.
@@ -193,7 +193,7 @@ Los webhooks se pueden entregar utilizando diferentes tipos de contenido:
 - El tipo de contenido application/x-www-form-urlencoded enviará la carga útil JSON como un parámetro de formulario llamado carga útil.
 
 #### Active
-De forma predeterminada, las entregas de webhook están "activas". Puede optar por deshabilitar la entrega de cargas útiles de webhook deseleccionando "Activo".
+De forma predeterminada, las entregas de webhook están "activas". Puede optar por deshabilitar la entrega de cargas útiles de webhook de seleccionando "Activo".
 
 #### Events
 
