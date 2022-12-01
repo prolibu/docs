@@ -97,6 +97,7 @@ Estos CustomObjects son implementados dentro de su cuenta Prolibu® por uno de n
         },
         "products": [
             {
+                "name": "PRODUCT NAME",
                 "sku": "992DNUW92UE",
                 "quantity": 1,
                 "discountRate": 10,
