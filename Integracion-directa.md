@@ -101,6 +101,7 @@ Estos CustomObjects son implementados dentro de su cuenta Prolibu® por uno de n
                 "sku": "992DNUW92UE",
                 "quantity": 1,
                 "discountRate": 10,
+                "price" : 10000,
                 "currency": "USD",
                 "metadata": {
                     "images": [
